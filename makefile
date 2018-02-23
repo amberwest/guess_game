@@ -1,7 +1,7 @@
 DATE=`date "+%Y-%m-%d %H:%M:%S"`
 num=`cat guessinggame.sh | wc -l`
 
-README.md:
+README.md:guessinggame.sh
 	touch README.md
 	echo "# guess game" > README.md
 	echo "- The date and time at which make was run: $(DATE)" >> README.md
